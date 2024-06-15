@@ -8,7 +8,6 @@ function toggleText(card) {
     title.classList.toggle('hidden');
 }
 
-
 function handleMouseOver(card) {
     var title = card.querySelector('.content h3');
     title.classList.add('hidden');
